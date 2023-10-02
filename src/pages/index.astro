@@ -24,10 +24,11 @@ import Layout from '../layouts/Layout.astro';
 				</div> -->
 			</div>
 
-			<div class="text-white text-center pt-2">
+			<div class="text-white text-center pt-2 md:pt-8 md:grid grid-cols-3 gap-2">
 				<div class="py-3">
-					<h2 class=" text-lg font-semibold">Services</h2>
-					<p>Family Service: Sundays &#64; 7pm <br>Youth/Yound Adult Service: Thursdays &#64; 7pm</p>
+					<h2 class=" text-lg font-semibold">Join us</h2>
+					<!-- <p>Family Service: Sundays &#64; 7pm <br>Youth/Young Adult Service: Thursdays &#64; 7pm</p> -->
+					<p>Family & Youth Service every <br> Sunday and Thursday @ 7pm</p>
 				</div>
 				<div class="py-3">
 					<h2 class="text-lg font-semibold">Location</h2>
@@ -35,13 +36,24 @@ import Layout from '../layouts/Layout.astro';
 				</div>
 				<div class="py-3">
 					<h2 class=" text-lg font-semibold">Contact</h2>
-					<p>unitedforchrist1721@gmail.com<br>(956) 244-5939 <br>(956) 367-6528</p>
+					<div class="">
+						<a href="mailto:unitedforchrist1721@gmail.com" class="hover:underline">unitedforchrist1721@gmail.com</a> 
+						<br>
+						<a href="tel:956-244-5939" class="hover:underline">(956) 244-5939</a>
+						<br>
+						<a href="tel:956-367-6528" class="hover:underline">(956) 367-6528</a>
+						</div>
 				</div>
-				<div class="py-3">
+				<!-- <div class="py-3">
 					<h2 class=" text-lg font-semibold">Follow us</h2>
 					<div><a href="/" class=" underline">Facebook</a><br>
 						<a href="/" class=" underline">Instagram</a></div>
-				</div>
+				</div> -->
+			</div>
+			<div class="py-3 md:pt-16 text-white text-center">
+				<h2 class=" text-lg font-semibold">Follow us</h2>
+				<div><a href="https://www.facebook.com/UnitedForChristMinistries" class=" underline">Facebook</a><br>
+					<a href="https://www.instagram.com/unitedforchristministries1721/" class=" underline">Instagram</a></div>
 			</div>
 		</div>
 	</main>
